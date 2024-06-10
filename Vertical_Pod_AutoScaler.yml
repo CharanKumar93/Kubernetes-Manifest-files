@@ -1,4 +1,4 @@
-#kubectl apply -f Verticall_Pod_AutoScaler.yml
+#kubectl apply -f Vertical_Pod_AutoScaler.yml
 #kubectl autoscale deployment php-apache --cpu-percent=1 --min=2 --max=10
 #kubectl get vpa
 #kubectl get vpa php-apache --watch
